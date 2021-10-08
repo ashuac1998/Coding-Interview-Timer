@@ -20,5 +20,6 @@ The components required for the hardware are:
 6. Potentiometer
 
 The tutorial for setting up the dispaly and the button are:
-Display -> https://www.youtube.com/watch?v=dZZynJLmTn8
-Button -> https://www.youtube.com/watch?v=8j4a3A9Jeqw
+  Display -> https://www.youtube.com/watch?v=dZZynJLmTn8
+  Button -> https://www.youtube.com/watch?v=8j4a3A9Jeqw
+
