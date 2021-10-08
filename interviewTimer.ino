@@ -10,7 +10,7 @@ bool timerPaused = false;
 static int pressCount = 0;
 
 
-static void SmallBeep(){
+static void smallBeep(){
   digitalWrite(buzz, HIGH);
   delay(50);
   digitalWrite(buzz, LOW);
@@ -25,7 +25,7 @@ static int printMessage(int mins, int secs, String str1, String str2){
       lcd.print("Remaining");
       delay(100);
       lcd.clear();
-      SmallBeep();
+      smallBeep();
       lcd.print(str1);
       lcd.setCursor(0,1);
       lcd.print(str2);
@@ -39,7 +39,7 @@ bool checkState(){
   bool currentState = digitalRead(button);
   if(currentState == pressed){
       pressCount += 1;
-      SmallBeep();
+      smallBeep();
       while(digitalRead(button) == pressed){}//Do nothing
     }
   if(pressCount%2 == 1){
